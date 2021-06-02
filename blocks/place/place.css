@@ -1,0 +1,32 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 984px;
+  margin: 0;
+  margin-top: 92px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .place {
+    gap: 32px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .place {
+    gap: 28px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}

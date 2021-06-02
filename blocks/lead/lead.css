@@ -1,0 +1,26 @@
+.lead {
+  max-width: 984px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1025px) {
+  .lead {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .lead {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .lead {
+    flex-wrap: nowrap;
+  }
+}
