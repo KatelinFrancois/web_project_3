@@ -3,10 +3,10 @@
   align-items: flex-end;
   justify-content: space-between;
   max-width: 984px;
-  margin: 34px 148px 58px 148px;
+  margin: 34px auto 58px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
   .header {
     max-width: 928px;
     margin: 34px 48px 49px 48px;
@@ -25,5 +25,6 @@
 @media only screen and (max-width: 400px) {
   .header {
     max-width: 288px;
+    margin: 31px 16px 39px 16px;
   }
 }

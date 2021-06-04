@@ -1,7 +1,7 @@
 .intro__text{
     max-width: 690px;
     margin: 0;
-    margin-top: 40;
+    margin-top: 40px;
     font-weight: normal;
     font-style: normal;
     font-size: 24px;
@@ -10,6 +10,8 @@
 
 .intro__text:last-of-type{
     margin: 32px 0 33px 0;
+    font-size: 16px;
+    line-height: 26.08px;
 }
 
 

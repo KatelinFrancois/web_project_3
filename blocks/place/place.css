@@ -24,9 +24,3 @@
     grid-template-columns: 1fr;
   }
 }
-
-@media only screen and (max-width: 400px) {
-  .place {
-    grid-template-columns: 1fr;
-  }
-}

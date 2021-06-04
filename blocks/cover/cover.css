@@ -1,4 +1,4 @@
-.cover {
+.cover{
   position: relative;
   min-height: 740px;
   display: flex;
@@ -7,8 +7,26 @@
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
+  margin: 0 auto;
 }
 
-.cover:hover .cover__overlay {
-  opacity: 0.8;
+
+@media only screen and (max-width: 1025px){
+  .cover{
+        min-height: 640px;
+  }
 }
+
+
+@media only screen and (max-width: 780px){
+  .cover{
+    min-height: 480px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .cover{
+    min-height: 200px;
+  }
+}
+

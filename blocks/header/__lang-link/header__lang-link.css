@@ -1,15 +1,18 @@
 .header__lang-link{
-    color: #e5e5e5;
-    max-width: 29px;
+    color: #ffffff;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     margin-top: 34px;
+    text-decoration: none;
 }
 
 .header__lang-link:last-of-type{
-    text-decoration: none;
     padding-left: 18px;
+}
+
+.header__lang-link:hover{
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 500px) {

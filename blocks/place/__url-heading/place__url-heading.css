@@ -3,10 +3,12 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 20.4px;
+    margin: 0;
+    margin-bottom: 4px;
 }
 
 @media only screen and (max-width: 400px){
     .place__url-heading{
-        margin: 0 16px;
+        margin-bottom: 12px;
     }
 }
