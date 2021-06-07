@@ -21,7 +21,7 @@
 @media only screen and (max-width: 550px) {
   .intro {
     margin-left: 16px;
+    margin-right: 16px;
     margin-bottom: 64px;
-    flex-wrap: inherit;
   }
 }
