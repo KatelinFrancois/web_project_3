@@ -25,6 +25,6 @@
 @media only screen and (max-width: 400px) {
   .header {
     max-width: 288px;
-    margin: 31px 16px 39px 16px;
+   margin: 31px 16px 39px
   }
 }
