@@ -5,8 +5,8 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 670px){
-    .place__website{
-        margin-left: 24px;
-    }
+@media only screen and (max-width: 670px) {
+  .place__website {
+    margin-left: 24px;
+  }
 }

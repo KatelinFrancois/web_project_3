@@ -27,7 +27,6 @@
 @media only screen and (max-width: 400px) {
   .intro__title {
     max-width: 288px;
-    margin-top: 64px;
     margin-right: auto;
     margin-left: auto;
   }

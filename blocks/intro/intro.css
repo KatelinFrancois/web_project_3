@@ -1,6 +1,6 @@
 .intro {
   color: #ffffff;
-  max-width: 690px;
+  max-width: 720px;
   margin-left: 100px;
   margin-bottom: 92px;
 }
@@ -13,7 +13,7 @@
 }
 @media only screen and (max-width: 990px) {
   .intro {
-    margin-left: 24px;
+    margin-left: auto;
     margin-bottom: 88px;
   }
 }

@@ -7,13 +7,8 @@
   margin: 0;
 }
 
-.footer__copyright:hover {
-  opacity: 0.8;
-}
-
-
-@media only screen and (max-width: 400px){
-  .footer__copyright{
+@media only screen and (max-width: 400px) {
+  .footer__copyright {
     line-height: 14px;
     margin-top: 48px;
   }

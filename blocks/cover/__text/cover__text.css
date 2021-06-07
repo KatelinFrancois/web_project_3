@@ -4,23 +4,23 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 1025px){
-    .cover__text{
-        margin-top: 233px;
-        margin-bottom: 233px;
-    }
+@media only screen and (max-width: 1025px) {
+  .cover__text {
+    margin-top: 233px;
+    margin-bottom: 233px;
+  }
 }
 
-@media only screen and (max-width: 770px){
-    .cover__text{
-        margin-top: 153px;
-        margin-bottom: 153px;
-    }
+@media only screen and (max-width: 770px) {
+  .cover__text {
+    margin-top: 153px;
+    margin-bottom: 153px;
+  }
 }
 
-@media only screen and (max-width: 400px){
-    .cover__text{
-        margin-top: 51px;
-        margin-bottom: 50px;
-    }
+@media only screen and (max-width: 400px) {
+  .cover__text {
+    margin-top: 51px;
+    margin-bottom: 50px;
+  }
 }
